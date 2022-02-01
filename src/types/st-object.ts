@@ -40,7 +40,7 @@ function handleXAddress(field: string, xAddress: string): JsonObject {
  * @param obj2 Second object to check for tags
  * @throws When both objects have SourceTag or DestinationTag
  */
-function checkForDuplicateTags(obj1: JsonObject, obj2: JsonObject): void {
+function checkForDuplicateTags(obj1: JsonObject, obj2: any): void {
   if (!(obj1[SOURCE_TAG] === undefined || obj2[SOURCE_TAG] === undefined))
     throw new Error('Cannot have Account X-Address and SourceTag')
   if (!(obj1[DEST_TAG] === undefined || obj2[DEST_TAG] === undefined))

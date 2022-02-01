@@ -285,5 +285,4 @@ describe('Binary Serialization', function () {
   describe('NegativeUNLTest', NegativeUNLTest)
   describe('OmitUndefined', omitUndefinedTest)
   describe('TicketTest', ticketTest)
-  describe('NFToken', nfTokenTest)
 })

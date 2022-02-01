@@ -30,16 +30,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:RichardAH/xrpl-binary-codec.git"
+    "url": "git+ssh://git@github.com/RichardAH/xrpl-binary-codec.git"
   },
   "bugs": {
     "url": "https://github.com/RichardAH/xrpl-binary-codec/issues"
   },
   "homepage": "https://github.com/RichardAH/xrpl-binary-codec/tree/main/#readme",
   "license": "ISC",
-  "readmeFilename": "README.md",
   "prettier": "@xrplf/prettier-config",
   "engines": {
     "node": ">=10.22.0"
+  },
+  "keywords": [
+    "xrpl",
+    "hooks",
+    "ripple-binary-codec"
+  ],
+  "author": "Ripple",
+  "devDependencies": {
+    "@types/node": "^17.0.14"
   }
 }
