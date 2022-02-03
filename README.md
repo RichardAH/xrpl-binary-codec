@@ -1,7 +1,7 @@
 # Fork
 This repo is a (non-monorepo) fork of [ripple binary codec](https://github.com/XRPLF/xrpl.js/tree/main/packages/ripple-binary-codec) with (probably) a more up to date _definitions.json_ that incorporates upcoming amendments such as hooks.
 
-# ripple-binary-codec [![NPM](https://img.shields.io/npm/v/ripple-binary-codec.svg)](https://npmjs.org/package/ripple-binary-codec)
+# ripple-binary-codec [![NPM](https://img.shields.io/npm/v/xrpl-binary-codec.svg)](https://npmjs.org/package/xrpl-binary-codec)
 
 Functions to encode/decode to/from the ripple [binary serialization format](https://xrpl.org/serialization.html)
 
